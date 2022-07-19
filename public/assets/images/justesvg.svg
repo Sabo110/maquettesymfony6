@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 512 512"
+   version="1.1"
+   sodipodi:docname="justesvg.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.0253906"
+     inkscape:cx="255.51238"
+     inkscape:cy="256.48762"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <title
+     id="title2">check-glyph</title>
+  <path
+     d="M256,0C114.84,0,0,114.84,0,256S114.84,512,256,512,512,397.16,512,256,397.16,0,256,0ZM357.72,205.66l-106.67,128a21.33,21.33,0,0,1-28.22,4.09l-64-42.67a21.33,21.33,0,0,1,23.67-35.5l48.05,32,94.39-113.27a21.33,21.33,0,0,1,32.78,27.31Z"
+     id="path4"
+     style="fill:#008000" />
+  <metadata
+     id="metadata1257">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>check-glyph</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
