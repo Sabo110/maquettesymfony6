@@ -18,7 +18,7 @@ class ServiceType extends AbstractType
             ->add('quantite')
             ->add('qtstock')
             ->add('dat')
-            ->add('envoyer',SubmitType::class)
+            ->add('enregistrer',SubmitType::class)
         ;
     }
 

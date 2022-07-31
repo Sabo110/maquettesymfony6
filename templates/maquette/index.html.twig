@@ -88,14 +88,15 @@
         </section>
         <section class="section2">
         <a href=" {{ path('form') }} "> Ajouter</a>
+        {# <small class="text-danger ms-5 fw-bold"> Notes: pour modifier une ligne cliquez juste sur l'icone d'action correspondant et sur le lien sup pour supprimer une ligne</small> #}
             <div class="divsearch">
-                <input type="text" placeholder="recherche">
+                <input type="text" placeholder="recherche" id="barrech">
                 <img src=" {{asset('assets/images/plus.png')}} " alt="" width="20" height="20">
             </div>
             <div id="der">
                 <div class="divtableau">
                     <h1>A commander</h1>
-                    <table>
+                    <table class="tab">
                     
                         <tr class="ent">
                             <th>service</th>
@@ -106,16 +107,21 @@
                             <th>action</th>
                         </tr>
                         
-                        {% for service in services %}
+                        {# {% for service in services %}
                              <tr class="bordure" id="change">
-                                <td> {{ service.service }} </td>
-                                <td>{{ service.besoin }}</td>
-                                <td>{{ service.quantite }}</td>
+                                <td>{{ service.service }} </td>
+                                <td> {{ service.besoin }}</td>
+                                <td>{{ service.quantite }} <a href=" {{ path('formdelete', {id: service.id}) }} " class="text-danger">sup</a></td>
                                 <td>{{ service.qtstock }}</td>
                                 <td>{{ service.dat | date('Y-m-d') }}</td>
-                                <td><img  src=" {{ asset('assets/images/justesvg.svg')}} " alt="" width="25" height="25"></td>
+                                <td>
+                                    <a href=" {{ path('formedit',{id: service.id}) }} "><img  src=" {{ asset('assets/images/justesvg.svg')}} " alt="" width="25" height="25"></a>
+                                </td>
                             </tr>
-                        {% endfor %}
+                        {% endfor %} #}
+                        <tbody class="tbody">
+
+                        </tbody>
                        
                        
                     </table>
@@ -147,4 +153,7 @@
             
         </section>
     </div>
+    {% block javascript %}
+        
+    {% endblock %}
 {% endblock %}
